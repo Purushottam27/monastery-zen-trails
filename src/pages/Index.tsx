@@ -72,10 +72,9 @@ const Index = () => {
   ];
 
   const quickStats = [
-    { label: "Monasteries", value: "25+", icon: Mountain },
-    { label: "Virtual Tours", value: "15", icon: Camera },
+    { label: "Monasteries", value: "200+", icon: Mountain },
+    { label: "Virtual Tours", value: "15+", icon: Camera },
     { label: "Languages", value: "5", icon: Globe },
-    { label: "Visitors", value: "10K+", icon: Users }
   ];
 
   const testimonials = [

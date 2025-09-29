@@ -30,8 +30,6 @@ const VirtualTour = () => {
       location: "East Sikkim",
       description: "The largest monastery in Sikkim, seat of the Kagyu lineage",
       scenes: ["Main Hall", "Prayer Wheels", "Golden Stupa", "Courtyard", "Monks' Quarters"],
-      duration: "45 minutes",
-      visitors: "1.2k today"
     },
     {
       id: "pemayangtse",
@@ -39,8 +37,6 @@ const VirtualTour = () => {
       location: "West Sikkim", 
       description: "One of the oldest monasteries in Sikkim",
       scenes: ["Assembly Hall", "Sacred Relics", "Wooden Sculptures", "Mountain View"],
-      duration: "35 minutes",
-      visitors: "856 today"
     }
   ];
 
@@ -113,11 +109,11 @@ const VirtualTour = () => {
                   <div className="flex items-center gap-4 text-white text-sm">
                     <div className="flex items-center gap-1">
                       <Clock className="w-4 h-4" />
-                      {currentMonastery.duration}
+                      
                     </div>
                     <div className="flex items-center gap-1">
                       <Users className="w-4 h-4" />
-                      {currentMonastery.visitors}
+                      
                     </div>
                   </div>
                 </div>
