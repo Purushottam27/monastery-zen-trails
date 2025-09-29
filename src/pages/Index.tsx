@@ -30,7 +30,7 @@ const Index = () => {
       icon: Camera,
       href: "/virtual-tour",
       color: "from-blue-500 to-cyan-500",
-      stats: "15+ Monasteries",
+      stats: "200+ Monasteries",
       features: ["360° Views", "HD Quality", "Multiple Angles"]
     },
     {
