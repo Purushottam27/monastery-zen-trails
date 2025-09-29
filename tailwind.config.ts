@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -57,6 +58,37 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Monastery-specific color palette
+        monastery: {
+          red: "hsl(var(--primary))",
+          gold: "hsl(var(--monastery-gold))",
+        },
+        mountain: {
+          blue: "hsl(var(--mountain-blue))",
+        },
+        prayer: {
+          blue: "hsl(var(--prayer-flag-blue))",
+          green: "hsl(var(--prayer-flag-green))",
+          yellow: "hsl(var(--prayer-flag-yellow))",
+        },
+        incense: {
+          smoke: "hsl(var(--incense-smoke))",
+        },
+      },
+      backgroundImage: {
+        "gradient-monastery": "var(--gradient-monastery)",
+        "gradient-mountain": "var(--gradient-mountain)",
+        "gradient-prayer-flags": "var(--gradient-prayer-flags)",
+        "gradient-golden": "var(--gradient-golden)",
+      },
+      boxShadow: {
+        monastery: "var(--shadow-monastery)",
+        golden: "var(--shadow-golden)",
+        mountain: "var(--shadow-mountain)",
+      },
+      transitionTimingFunction: {
+        monastery: "var(--transition-monastery)",
+        prayer: "var(--transition-prayer)",
       },
       borderRadius: {
         lg: "var(--radius)",
